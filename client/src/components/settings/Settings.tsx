@@ -4,7 +4,7 @@ import { useSearchParams } from 'react-router-dom';
 import { SettingOption } from './SettingsOption';
 
 import { SettingOptionType } from './Settings.type';
-import { DefaultUserTypeName, NameByUserType, UserTypes } from './UserType.const';
+import { DefaultUserTypeName, NameByUserType, UserTypes } from './user-type.const';
 
 import './Settings.scss';
 
