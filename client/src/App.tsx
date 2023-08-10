@@ -2,7 +2,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 import { DestructuringProps } from './components/DestructuringProps';
 import { LordOfTheRings } from './components/lord-of-the-rings/LordOfTheRings';
-import { Guests } from './components/rendi/Guests';
+import { Guests } from './components/guests/Guests2';
 import { Settings } from './components/settings/Settings';
 import { Parent } from './components/SplittingComponents';
 import Square from './components/Square';
