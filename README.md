@@ -5,7 +5,7 @@
 
 מי שם נקודה פסיק למרות שברוב המקרים גאווהסקריפט לא מחייב
 
-
+# Old files notes:
 > **Settings**
 generic
 render arr.map()
