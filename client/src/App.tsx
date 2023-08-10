@@ -41,6 +41,7 @@ function App() {
         <section>
           <LordOfTheRings />
         </section>
+
         {/* <Parent /> */}
 
       </BrowserRouter>
