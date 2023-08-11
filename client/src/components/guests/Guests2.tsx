@@ -1,4 +1,6 @@
+import axios from 'axios';
 import { FC, useState } from 'react';
+
 import { useTextByCount } from '../../common/hooks/use-text-by-count';
 
 
@@ -7,6 +9,7 @@ export const Guests: FC = () => {
     const textByCount = useTextByCount({ none: "No one is here yet...", single: "We have 1 guest!", multi: guestsCount => `We have ${guestsCount} guests!` });
 
     const handleNewGuest = () => {
+        const partyInfo = axios.post("/api/new-guest");
         setGuestsCount(curr => !curr ? 1 : curr + 1);
     }
 
